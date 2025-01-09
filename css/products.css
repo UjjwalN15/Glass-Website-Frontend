@@ -1,0 +1,111 @@
+main{
+    width: 100vw;
+}
+.products-content{
+    width: 100%;
+    margin-top: 90px;
+    justify-content: center;
+}
+.filter-links a:visited{
+    color: black;
+}
+.filter-links a:hover{
+    color: blue;
+}
+.filter-links a.active {
+    color: blue; /* Active link color */
+    font-weight: bold;
+}
+.filters-container{
+    width: 100%; 
+    top: 0;
+    border-radius: 20px;
+    align-items: center;
+    padding: 30px 10px;
+    box-shadow: 5px 0 5px 3px rgba(0, 0, 0, 0.2);
+}
+.filter-links{
+    text-align: center;
+    gap: 20px;
+}
+.filter-links p{
+    cursor: pointer;
+}
+.filter-links p:hover{
+    color: blue;
+    translate: transformY(-5px);
+}
+.products-container{
+    width: 80%;
+    height: 100%;
+    padding: 20px;
+}
+.searchForm input{
+    height: 30px;
+    padding: 10px;
+}
+.list-products{
+    width: 100%;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.product-item{
+    width: calc(100%/4.5);
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 0 5px 3px rgba(0, 0, 0, 0.2);
+}
+.product-item img{
+    border-radius: 20px;
+    width: 100%;
+    height: 150px;
+}
+.product-item a{
+    width: max-content;
+    align-self: center;
+}
+.product-text{
+    gap: 10px;
+}
+
+@media screen and (max-width: 1150px) {
+    .product-item{
+        width: 100%;
+    }
+    .filters-container, .search{
+        flex-direction: column;
+        gap: 20px;
+        background-color: black;
+        color: gold;
+        border: 2px solid gold;
+    }
+    .filters-container h2{
+        display: none;
+    }
+    .filters-container{
+        flex-wrap: wrap;
+    }
+    .filter-links{
+        align-items: center;
+        gap: 15px;
+    }
+    .filter-links a{
+        font-size: 0.8rem;
+    }
+    .filter-links a:visited{
+        color: white;
+    }
+    .filter-links a:hover{
+        color: gold;
+    }
+    .products-container{
+        width: 100%;
+    }
+    .container{
+        width: 90%;
+    }
+ }
