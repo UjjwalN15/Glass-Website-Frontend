@@ -80,10 +80,13 @@ footer .container{
     text-decoration: underline;
  }
  @media screen and (max-width: 1150px) {
-    .container{
-        gap: 50px;
-    }
     footer .container{
-        flex-wrap: wrap;
+      width: 90%;
+        gap: 20px;
+        justify-content: center;
     }
+    .footer-social{
+      align-self: center;
+    }
+    
  }

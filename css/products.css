@@ -10,10 +10,10 @@ main{
     color: black;
 }
 .filter-links a:hover{
-    color: blue;
+    color: orangered;
 }
 .filter-links a.active {
-    color: blue; /* Active link color */
+    color: orangered; /* Active link color */
     font-weight: bold;
 }
 .filters-container{
@@ -30,10 +30,6 @@ main{
 }
 .filter-links p{
     cursor: pointer;
-}
-.filter-links p:hover{
-    color: orangered;
-    translate: transformY(-5px);
 }
 .products-container{
     width: 80%;
