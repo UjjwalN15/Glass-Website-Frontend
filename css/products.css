@@ -32,7 +32,7 @@ main{
     cursor: pointer;
 }
 .filter-links p:hover{
-    color: blue;
+    color: orangered;
     translate: transformY(-5px);
 }
 .products-container{
@@ -76,10 +76,11 @@ main{
     .product-item{
         width: 100%;
     }
-    .filters-container, .search{
+    .filters-container{
         flex-direction: column;
         gap: 20px;
         background-color: black;
+        word-wrap:break-word;
         color: gold;
         border: 2px solid gold;
     }
