@@ -106,9 +106,6 @@
     .item-div h2{
         align-self: center;
     }
-    .item-card{
-        margin-left: -20px;
-    }
     .container{
         gap: 50px;
     }
