@@ -293,12 +293,14 @@
 
             if (radio.value === 'esewa') {
                 paymentOnline.style.display = 'flex';
+                paymentOnline.style.flexDirection = 'column';
                 mobileNumberOnlineID.value = '9768431599';
                 PaymentSuccessful.style.display = 'inline-block';
                 FileInput.required = true;
                 CodmobileNumber.required = false;
             } else if (radio.value === 'khalti') {
-                paymentOnline.style.display = 'block';
+                paymentOnline.style.display = 'flex';
+                paymentOnline.style.flexDirection = 'column';
                 mobileNumberOnlineID.value = '9841588049';
                 PaymentSuccessful.style.display = 'inline-block';
                 FileInput.required = true;
@@ -363,7 +365,7 @@
     });
 
 
-    
+
     const accordians = document.querySelectorAll('.accordian');
 
       accordians.forEach(accordian => {
