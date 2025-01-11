@@ -79,14 +79,56 @@ footer .container{
  .footer-bottom a:hover {
     text-decoration: underline;
  }
+ .footer-mobile{
+   display: none;
+}
+.accordian{
+   width: 100%;
+   background-color: #555;
+   padding: 10px 30px;
+   box-shadow: 5px 5px 10px #888;
+   cursor: pointer;
+   border-radius: 10px;
+   font-size: 1.2rem;
+}
+.icon{
+   margin-right: 20px;
+   transition: transform 0.5s;
+}
+.answer {
+   overflow: hidden;
+   padding-top: 10px;
+   max-height: 0;
+   color: white;
+   transition: all 0.5s;
+}
+.answer a{
+   color: white;
+}
+.answer a:hover{
+   color: gold;
+}
+.icon.active{
+   transform: rotate(-180deg);
+}
  @media screen and (max-width: 1150px) {
     footer .container{
       width: 90%;
-        gap: 20px;
-        justify-content: center;
+      gap: 20px;
+      justify-content: center;
     }
     .footer-social{
       align-self: center;
     }
-    
+    .footer-largescreen{
+      display: none;
+  }
+  .footer-mobile{
+      width: 90%;
+      display: flex;
+      display: block;
+  }
+  .accordian{
+      margin-top: 20px;
+  }
  }

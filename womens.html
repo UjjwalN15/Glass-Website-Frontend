@@ -8,6 +8,7 @@
    <!--=============== REMIXICONS ===============-->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
    <!--=============== CSS ===============-->
    <link rel="stylesheet" href="/css/utility.css">
@@ -124,61 +125,117 @@
       </section>
    </main>
    <footer>
-      <div class="container flex space-between">
-         <div class="footer-about">
-            <h3>Glass Website</h3>
-            <p>Your trusted source for premium glass products and solutions.</p>
-         </div>
-         <div class="footer-links">
-            <h4>Quick Links</h4>
-            <ul>
-               <li><a href="/about">About Us</a></li>
-               <li><a href="/products">Products</a></li>
-               <li><a href="/contact">Contact</a></li>
-               <li><a href="/faq">FAQ</a></li>
-               <li><a href="/blog">Blog</a></li>
-            </ul>
-         </div>
-         <div class="footer-contact">
-            <h4>Contact Us</h4>
-            <p>Email: <a href="mailto:#">example@gmail.com</a></p>
-            <p>Phone: <a href="tel:#">+977 1234567890</a></p>
-            <p>Address: Kathmandu, Nepal</p>
-         </div>
-         <div class="footer-social">
-            <h4>Follow Us</h4>
-            <div class="nav__social">
-               <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" title="Instagram"
-                  class="nav__social-link">
-                  <i class="ri-instagram-line"></i>
-               </a>
+      <div class="container">
+         <div class="footer-largescreen flex space-between">
+            <div class="footer-about">
+               <h3>Glass Website</h3>
+               <p>Your trusted source for premium glass products and solutions.</p>
+            </div>
+            <div class="footer-links">
+               <h4>Quick Links</h4>
+               <ul>
+                  <li><a href="/about">About Us</a></li>
+                  <li><a href="/products">Products</a></li>
+                  <li><a href="/contact">Contact</a></li>
+                  <li><a href="/faq">FAQ</a></li>
+                  <li><a href="/blog">Blog</a></li>
+               </ul>
+            </div>
+            <div class="footer-contact">
+               <h4>Contact Us</h4>
+               <p>Email: <a href="mailto:#">example@gmail.com</a></p>
+               <p>Phone: <a href="tel:#">+977 1234567890</a></p>
+               <p>Address: Kathmandu, Nepal</p>
+            </div>
+            <div class="footer-social">
+               <h4>Follow Us</h4>
+               <div class="nav__social">
+                  <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" title="Instagram"
+                     class="nav__social-link">
+                     <i class="ri-instagram-line"></i>
+                  </a>
 
-               <a href="https://github.com/" target="_blank" rel="noopener noreferrer" title="Github"
-                  class="nav__social-link">
-                  <i class="ri-github-line"></i>
-               </a>
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer" title="Github"
+                     class="nav__social-link">
+                     <i class="ri-github-line"></i>
+                  </a>
 
-               <a href="https://dribbble.com/" target="_blank" rel="noopener noreferrer" title="Dribble"
-                  class="nav__social-link">
-                  <i class="ri-dribbble-line"></i>
-               </a>
+                  <a href="https://dribbble.com/" target="_blank" rel="noopener noreferrer" title="Dribble"
+                     class="nav__social-link">
+                     <i class="ri-dribbble-line"></i>
+                  </a>
 
-               <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" title="Linkedin"
-                  class="nav__social-link">
-                  <i class="ri-linkedin-box-line"></i>
-               </a>
+                  <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" title="Linkedin"
+                     class="nav__social-link">
+                     <i class="ri-linkedin-box-line"></i>
+                  </a>
+               </div>
             </div>
          </div>
       </div>
-      <div class="footer-bottom">
-         <p>&copy; 2025 GlassWebsite. All rights reserved. | <a href="/privacy-policy">Privacy Policy</a></p>
+      <div class="footer-mobile flex flex-column">
+         <div class="accordian">
+            <div class="question flex space-between">
+                <h4>Glass Website<h4>
+                        <i class="icon fa-solid fa-caret-down"></i>
+            </div>
+            <div class="answer">
+               <p>Your trusted source for premium glass products and solutions.</p>
+            </div>
+        </div>
+         <div class="accordian">
+            <div class="question flex space-between">
+                <h4>Quick Links<h4>
+                        <i class="icon fa-solid fa-caret-down"></i>
+            </div>
+            <div class="answer">
+               <ul>
+                  <li><a href="/about">About Us</a></li>
+                  <li><a href="/products">Products</a></li>
+                  <li><a href="/contact">Contact</a></li>
+                  <li><a href="/faq">FAQ</a></li>
+                  <li><a href="/blog">Blog</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="accordian">
+            <div class="question flex space-between">
+                <h4>Contact Us<h4>
+                        <i class="icon fa-solid fa-caret-down"></i>
+            </div>
+            <div class="answer">
+               <p>Email: <a href="mailto:#">example@gmail.com</a></p>
+               <p>Phone: <a href="tel:#">+977 1234567890</a></p>
+               <p>Address: Kathmandu, Nepal</p>
+            </div>
+         </div>
       </div>
- </footer>
+   </div>
+   <div class="footer-bottom">
+      <p>&copy; 2025 GlassWebsite. All rights reserved. | <a href="/privacy-policy">Privacy Policy</a></p>
+   </div>
+</footer>
  
 
  <!--=============== MAIN JS ===============-->
  <script src="js/main.js"></script>
 </body>
 <script>
+   const accordians = document.querySelectorAll('.accordian');
+
+    accordians.forEach(accordian => {
+        const icon = accordian.querySelector('.icon');
+        const answer = accordian.querySelector('.answer');
+
+        accordian.addEventListener('click', () => {
+            if (icon.classList.contains('active')) {
+                icon.classList.remove('active');
+                answer.style.maxHeight = null;
+            } else {
+                icon.classList.add('active');
+                answer.style.maxHeight = answer.scrollHeight + 'px';
+            }
+        });
+    });
 </script>
 </html>

@@ -53,8 +53,8 @@
     box-shadow: 5px 0 5px 3px rgba(0, 0, 0, 0.2);
 }
 .category img{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
 }
 .category h3{
@@ -97,7 +97,6 @@
     object-fit: contain;
     mix-blend-mode: multiply;
 }
-
 
  @media screen and (max-width: 1150px) {
     .category-container{

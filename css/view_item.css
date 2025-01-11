@@ -15,6 +15,9 @@
 #paymentOnline, #cod{
     display: none;
 }
+#paymentOnline label, #paymentOnline input:read-only, .radios{
+    font-size: medium;
+}
 .order-form{
     margin-top: 60px;
     width: 40%;

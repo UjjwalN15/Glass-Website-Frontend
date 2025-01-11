@@ -28,6 +28,7 @@
 .question{
     display: flex;
     align-items: center;
+    color: white;
     justify-content: space-between;
 }
 .icon{
@@ -86,7 +87,8 @@ textarea{
     align-items: center;
 }
 .submit{
-    width: max-content;
+    background-color: orangered !important;
+    width: max-content !important;
     align-self: center;
 }
 @media screen and (max-width: 1150px) {
