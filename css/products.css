@@ -7,13 +7,10 @@ main{
     justify-content: center;
 }
 .filter-links a:visited{
-    color: black;
-}
-.filter-links a:hover{
-    color: orangered;
+    color: #30447c;
 }
 .filter-links a.active {
-    color: orangered; /* Active link color */
+    color: #30447c; /* Active link color */
     font-weight: bold;
 }
 .filters-container{
@@ -23,6 +20,9 @@ main{
     align-items: center;
     padding: 30px 10px;
     box-shadow: 5px 0 5px 3px rgba(0, 0, 0, 0.2);
+}
+.filters-container h2{
+    color: #30447c;
 }
 .filter-links{
     text-align: center;
@@ -66,6 +66,7 @@ main{
 }
 .product-text{
     gap: 10px;
+    color: #30447c;
 }
 
 @media screen and (max-width: 1150px) {
@@ -75,10 +76,8 @@ main{
     .filters-container{
         flex-direction: column;
         gap: 20px;
-        background-color: black;
         word-wrap:break-word;
-        color: gold;
-        border: 2px solid gold;
+        color: #fffc04;
     }
     .filters-container h2{
         display: none;
@@ -94,10 +93,7 @@ main{
         font-size: 0.8rem;
     }
     .filter-links a:visited{
-        color: white;
-    }
-    .filter-links a:hover{
-        color: gold;
+        color: #30447c;
     }
     .products-container{
         width: 100%;

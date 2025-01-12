@@ -89,8 +89,8 @@ a{
 .button{
     margin-top: 20px;
     padding: 10px;
-    background-color: orangered;
-    color: white;
+    background-color: #30447c;
+    color: #fffc04;
     font-size: 1.25rem;
     border-radius: 10px;
     cursor: pointer;
