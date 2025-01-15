@@ -129,6 +129,9 @@ footer .container{
       display: flex;
       display: block;
   }
+  footer .accordian{
+   box-shadow: none;
+  }
   .accordian{
       margin-top: 20px;
   }
